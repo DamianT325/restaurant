@@ -1,0 +1,48 @@
+.app__navbar {
+  background-color: var(--color-black);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  color: var(--color-white);
+}
+
+.app__navbar-logo-img {
+  width: 199px;
+  height: 57px;
+}
+
+.app__navbar-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  list-style: none;
+}
+
+.app__navbar-links-link {
+  font-family: var(--font-alt);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: var(--color-white);
+}
+
+.app__navbar-logInLogOut {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div {
+}
+
+.app__navbar-logInLogOut-paragraph {
+  font-family: var(--font-alt);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: var(--color-white);
+}
