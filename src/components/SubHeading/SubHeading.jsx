@@ -1,5 +1,10 @@
 import React from "react";
-
-const SubHeading = () => <div>SubHeading</div>;
+import { images } from "../../constants";
+const SubHeading = ({ title }) => (
+  <div style={{ marginBottom: "1rem" }} className="p__cormorant">
+    {title}
+    <img src={images.spoon} alt="spoon" className="spoon__image" />
+  </div>
+);
 
 export default SubHeading;
