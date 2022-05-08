@@ -49,6 +49,17 @@ p {
   text-align: center;
 }
 
+.app__footer-links_logo svg {
+  color: var(--color-white);
+  font-size: 24px;
+  margin: 0 0.4rem;
+  cursor: pointer;
+}
+
+.app__footer-links_logo svg:hover {
+  color: var(--color-golden);
+}
+
 @media screen and (max-width: 600px) {
   .app__footer-links {
     flex-direction: column;

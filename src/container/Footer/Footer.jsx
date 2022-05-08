@@ -24,9 +24,9 @@ const Footer = () => (
           }
         />
         <div>
-          <FiFacebook color={"#fff"} fontSize={20} />
-          <FiTwitter color={"#fff"} fontSize={20} />
-          <FiInstagram color={"#fff"} fontSize={20} />
+          <FiFacebook />
+          <FiTwitter />
+          <FiInstagram />
         </div>
       </div>
 
