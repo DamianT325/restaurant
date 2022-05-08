@@ -30,6 +30,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 .app__footer-links_work {
@@ -60,7 +61,7 @@ p {
   color: var(--color-golden);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 880px) {
   .app__footer-links {
     flex-direction: column;
   }
