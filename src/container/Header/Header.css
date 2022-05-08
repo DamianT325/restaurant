@@ -3,6 +3,7 @@
 }
 
 .app__header h1 {
+  word-break: break-all;
   font-family: var(--font-base);
   color: var(--color-golden);
   letter-spacing: 0.04em;
